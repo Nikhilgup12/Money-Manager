@@ -1,0 +1,42 @@
+/* Write your CSS here */
+.money-detail-container-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+.money-detail-list {
+  display: flex;
+  padding: 15px;
+  border-radius: 10px;
+  border-width: 1px;
+  border-style: solid;
+  margin: 10px;
+}
+.green {
+  border-color: #84cc16;
+  background-color: #ecfccb;
+  margin-right: 20px;
+}
+.blue {
+  border-color: #06b6d4;
+  background-color: #cffafe;
+  margin-right: 20px;
+}
+.purple {
+  background-color: #ede9fe;
+  border-color: #7c3aed;
+}
+.balance-image {
+  height: 50px;
+  width: 50px;
+  margin-right: 12px;
+}
+.money-balance {
+  font-size: 13px;
+  color: #475569;
+  font-family: Roboto;
+  margin-bottom: 5px;
+}
+.rupees-check {
+  margin-top: 5px;
+}

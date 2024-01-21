@@ -1,0 +1,188 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+.money-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  padding: 10px;
+}
+.money-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.money-name-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  min-width: 600px;
+  padding: 29px;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.money-heading {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #475569;
+  font-family: Roboto;
+}
+.money-para {
+  font-size: 15px;
+  color: #475569;
+  font-family: Roboto;
+}
+.money-manager {
+  color: #0b69ff;
+  font-weight: bold;
+}
+.transaction-detail-container {
+  display: flex;
+  margin-top: 10px;
+}
+.Transaction-detail {
+  padding: 20px;
+  border-radius: 7px;
+  border-style: solid;
+  border-color: #d7dfe9;
+  border-width: 1px;
+  min-width:250px;
+}
+.Transaction {
+  padding: 10px;
+}
+.Transaction-heading {
+  color: #334155;
+  font-size: 20px;
+  font-family: Roboto;
+  margin-bottom: 10px;
+}
+.Transaction-label-title {
+  color: #7e858e;
+  font-size: 12px;
+  font-family: Roboto;
+}
+.Transaction-title-input {
+  color: #7e858e;
+  font-size: 12px;
+  width: 95%;
+  font-family: Roboto;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #d7dfe9;
+  outline: none;
+}
+.Transaction-label-amount {
+  color: #7e858e;
+  font-size: 12px;
+  font-family: Roboto;
+}
+.Transaction-label-type {
+  color: #7e858e;
+  font-size: 12px;
+  font-family: Roboto;
+}
+.Transaction-amount-input {
+  color: #7e858e;
+  font-size: 12px;
+  width: 95%;
+  font-family: Roboto;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #d7dfe9;
+  outline: none;
+}
+.Transaction-type-input {
+  color: #7e858e;
+  font-size: 12px;
+  width: 95%;
+  font-family: Roboto;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #d7dfe9;
+  outline: none;
+}
+.btn {
+  background-color: #0b69ff;
+  color: #ffff;
+  padding-left: 13px;
+  padding-top: 6px;
+  padding-right: 13px;
+  padding-bottom: 6px;
+  border-width: 0px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 12px;
+  font-family: Roboo;
+  font-weight: bold;
+}
+.transaction-history-container {
+  padding: 15px;
+  border-radius: 7px;
+  border-style: solid;
+  border-color: #d7dfe9;
+  border-width: 1px;
+  margin-left: 30px;
+}
+.transaction-history-heading {
+  color: #334155;
+  font-size: 20px;
+  font-family: Roboto;
+  margin-bottom: 10px;
+}
+.transaction-history-header {
+  padding: 20px;
+}
+.transaction-list-container {
+  display: flex;
+  border-radius: 4px;
+  border-style: solid;
+  border-color: #d7dfe9;
+  border-width: 1px;
+  list-style: none;
+  padding: 10px;
+  min-width: 250px;
+}
+.transaction-title {
+  color: #1e293b;
+  font-size: 13px;
+  font-family: Roboto;
+  font-weight: bold;
+  padding-right: 35px;
+}
+.transaction-amount {
+  color: #1e293b;
+  font-size: 13px;
+  font-family: Roboto;
+  font-weight: bold;
+  padding-right: 25px;
+}
+.transaction-type {
+  color: #1e293b;
+  font-size: 13px;
+  font-family: Roboto;
+  font-weight: bold;
+  padding-right: 15px;
+}
